@@ -1,0 +1,4 @@
+.nav-item:hover{
+    background-color: #dc3545;
+    transition: 0.5s ease-in;
+}

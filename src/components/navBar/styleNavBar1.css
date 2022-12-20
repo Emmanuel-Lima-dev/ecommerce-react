@@ -1,0 +1,10 @@
+.item:hover,
+.sub-items:hover{
+    color: #dc3545!important;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    font-weight:200;
+    vertical-align: top;
+}

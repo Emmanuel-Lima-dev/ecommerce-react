@@ -1,0 +1,23 @@
+h1::before{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: var(--color-principal);
+    position: absolute;
+    right: 50%;
+    bottom: -4px;
+    transform: translate(15%, 0);
+}
+
+h1::after{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: var(--color-principal);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-15%, 0);
+}

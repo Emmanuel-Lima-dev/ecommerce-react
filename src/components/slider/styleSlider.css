@@ -1,0 +1,12 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, .9);
+    transform: scale(0.8);
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover{
+    background-color: #dc3545;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
